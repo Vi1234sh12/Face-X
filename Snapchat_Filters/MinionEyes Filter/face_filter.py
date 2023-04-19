@@ -9,7 +9,7 @@ import numpy as np
 import os
 
 current_dir = os.path.dirname(__file__)
-image_path = os.path.join(current_dir, 'minion_eyes.png')
+image_path = os.path.join(current_dir, 'img/minion_eyes.png')
 cascPath = os.path.join(current_dir, 'frontalEyes.xml')  # for eye detection
 
 if os.path.exists(cascPath):
